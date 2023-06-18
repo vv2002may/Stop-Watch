@@ -1,0 +1,51 @@
+body{
+   height: 100vh;
+   display: flex;
+   background: linear-gradient(yellow,red);
+   justify-content: center;
+   align-items: center;
+   font-family: chalkboard;
+}
+.container{
+   width: 60%;
+   height: 250px;
+   border-radius: 10px;
+   border: 1px solid #000;
+   box-shadow: 0 0 3px;
+}
+.timer{
+   font-size: 7rem;
+   padding-top: 10px;
+   text-align: center;
+   width: 100%;
+   margin: 0px auto;
+}
+.button{
+   text-align: center;
+   position: absolute;
+   padding-top: 110px;
+}
+button{
+   margin: 0 10px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   background: transparent;
+}
+button i{
+   font-size: 2rem;
+   padding: 9px;
+   color: #fff;
+   width: 40px;
+   border: 1.5px solid #000;
+   transition: .5s;
+}
+#play{
+   background-color: rgb(33, 174, 33);
+}
+#pause{
+   background-color: orange;
+}
+#reset{
+   background-color: rgb(212, 45, 45);
+}
